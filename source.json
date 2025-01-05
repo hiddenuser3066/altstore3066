@@ -1,0 +1,49 @@
+{
+  "name": "HiddenUser3066 AltStore Source",
+  "subtitle": "A source for all of my apps, including Angry Birds Space.",
+  "description": "Welcome to my AltStore source! Here you'll find all of my apps, including games and utilities. If you are looking for Angry Birds Space or other apps, you've come to the right place.",
+  "iconURL": "https://hiddenuser3066.github.io/altstore3066/images/source_icon.png",
+  "headerURL": "https://hiddenuser3066.github.io/altstore3066/images/source_header.png",
+  "website": "https://hiddenuser3066.github.io/altstore3066",
+  "patreonURL": "https://patreon.com/hiddenuser3066",
+  "tintColor": "#F54F32",
+  "featuredApps": [
+    "com.rovio.angrybirdsspace"
+  ],
+  "apps": [
+    {
+      "name": "Angry Birds Space",
+      "bundleIdentifier": "com.rovio.angrybirdsspace",
+      "marketplaceID": "12345678",  // Optional, leave empty or omit if not needed
+      "developerName": "Rovio Entertainment",
+      "subtitle": "The popular Angry Birds game in space.",
+      "localizedDescription": "Experience Angry Birds in a space setting, complete with physics-based puzzles and new gameplay mechanics.",
+      "iconURL": "https://hiddenuser3066.github.io/altstore3066/images/angry_birds_icon.png",
+      "tintColor": "#F54F32",
+      "category": "Games",
+      "screenshots": [
+        "https://hiddenuser3066.github.io/altstore3066/images/angry_birds_screenshot1.png",
+        "https://hiddenuser3066.github.io/altstore3066/images/angry_birds_screenshot2.png"
+      ],
+      "versions": [
+        {
+          "version": "8.0.3",
+          "url": "https://hiddenuser3066.github.io/altstore3066/ipa/Angry_Birds_Space_v8.0.3.ipa",
+          "notes": "Initial release for AltStore users."
+        }
+      ],
+      "appPermissions": {
+        "camera": false,
+        "location": false,
+        "microphone": false,
+        "photos": false,
+        "motion": false
+      },
+      "patreon": {
+        "url": "https://patreon.com/hiddenuser3066",
+        "supporterTier": "Super Supporter"
+      }
+    }
+  ],
+  "news": []
+}
