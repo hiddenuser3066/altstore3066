@@ -1,35 +1,27 @@
 {
   "name": "HiddenUser3066 AltStore Source",
-  "subtitle": "A source for all of my apps, including Angry Birds Space.",
-  "description": "Welcome to my AltStore source! Here you'll find all of my apps, including games and utilities. If you are looking for Angry Birds Space or other apps, you've come to the right place.",
-  "iconURL": "https://hiddenuser3066.github.io/altstore3066/images/source_icon.png",
-  "headerURL": "https://hiddenuser3066.github.io/altstore3066/images/source_header.png",
+  "subtitle": "A source for all of my apps, including Angry Birds 2.2.0.",
+  "description": "Welcome to my AltStore source! Here you'll find all of my apps, including games and utilities. If you are looking for Angry Birds or other apps, you've come to the right place.",
   "website": "https://hiddenuser3066.github.io/altstore3066",
   "patreonURL": "https://patreon.com/hiddenuser3066",
   "tintColor": "#F54F32",
   "featuredApps": [
-    "com.rovio.angrybirdsspace"
+    "com.rovio.angrybirds"
   ],
   "apps": [
     {
-      "name": "Angry Birds Space",
-      "bundleIdentifier": "com.rovio.angrybirdsspace",
-      "marketplaceID": "12345678",  // Optional, leave empty or omit if not needed
+      "name": "Angry Birds",
+      "bundleIdentifier": "com.rovio.angrybirds",
+      "marketplaceID": "12345678",
       "developerName": "Rovio Entertainment",
-      "subtitle": "The popular Angry Birds game in space.",
-      "localizedDescription": "Experience Angry Birds in a space setting, complete with physics-based puzzles and new gameplay mechanics.",
-      "iconURL": "https://hiddenuser3066.github.io/altstore3066/images/angry_birds_icon.png",
-      "tintColor": "#F54F32",
+      "subtitle": "The popular Angry Birds game.",
+      "localizedDescription": "Play the classic Angry Birds game with a variety of levels and physics-based puzzles.",
       "category": "Games",
-      "screenshots": [
-        "https://hiddenuser3066.github.io/altstore3066/images/angry_birds_screenshot1.png",
-        "https://hiddenuser3066.github.io/altstore3066/images/angry_birds_screenshot2.png"
-      ],
       "versions": [
         {
-          "version": "8.0.3",
-          "url": "https://hiddenuser3066.github.io/altstore3066/ipa/Angry_Birds_Space_v8.0.3.ipa",
-          "notes": "Initial release for AltStore users."
+          "version": "2.2.0",
+          "url": "https://raw.githubusercontent.com/hiddenuser3066/altstore3066/main/ipa/Angry_Birds_2.2.0.ipa",
+          "notes": "Latest version for AltStore users."
         }
       ],
       "appPermissions": {
@@ -38,10 +30,6 @@
         "microphone": false,
         "photos": false,
         "motion": false
-      },
-      "patreon": {
-        "url": "https://patreon.com/hiddenuser3066",
-        "supporterTier": "Super Supporter"
       }
     }
   ],
