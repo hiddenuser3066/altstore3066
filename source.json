@@ -1,35 +1,55 @@
 {
-  "name": "HiddenUser3066 AltStore Source",
-  "subtitle": "A source for all of my apps, including Angry Birds 2.2.0.",
-  "description": "Welcome to my AltStore source! Here you'll find all of my apps, including games and utilities. If you are looking for Angry Birds or other apps, you've come to the right place.",
-  "website": "https://hiddenuser3066.github.io/altstore3066",
-  "patreonURL": "https://patreon.com/hiddenuser3066",
+  "name": "HiddenUser AltStore Source",
+  "subtitle": "Apps available from HiddenUser.",
+  "description": "Welcome to the HiddenUser AltStore source! Here you'll find all of my apps including Angry Birds 2.2.0.",
+  "iconURL": "https://yourdomain.com/your-icon.png",
+  "headerURL": "https://yourdomain.com/your-header.png",
+  "website": "https://yourwebsite.com",
+  "patreonURL": "https://patreon.com/yourcampaign",
   "tintColor": "#F54F32",
   "featuredApps": [
-    "com.rovio.angrybirds"
+    "com.hiddenuser.angrybirds"
   ],
   "apps": [
     {
-      "name": "Angry Birds",
-      "bundleIdentifier": "com.rovio.angrybirds",
+      "name": "Angry Birds 2.2.0",
+      "bundleIdentifier": "com.hiddenuser.angrybirds",
       "marketplaceID": "12345678",
-      "developerName": "Rovio Entertainment",
-      "subtitle": "The popular Angry Birds game.",
-      "localizedDescription": "Play the classic Angry Birds game with a variety of levels and physics-based puzzles.",
-      "category": "Games",
+      "developerName": "HiddenUser",
+      "subtitle": "An awesome game with birds!",
+      "localizedDescription": "Angry Birds 2.2.0 version available for AltStore.",
+      "iconURL": "https://yourdomain.com/angrybirds-icon.png",
+      "tintColor": "#F54F32",
+      "category": "games",
+      "screenshots": [
+        "https://yourdomain.com/angrybirds-screenshot1.png",
+        "https://yourdomain.com/angrybirds-screenshot2.png"
+      ],
       "versions": [
         {
           "version": "2.2.0",
-          "url": "https://raw.githubusercontent.com/hiddenuser3066/altstore3066/main/ipa/Angry_Birds_2.2.0.ipa",
-          "notes": "Latest version for AltStore users."
+          "buildVersion": "60",
+          "date": "2023-01-05",
+          "localizedDescription": "Updated features and bug fixes.",
+          "downloadURL": "https://yourdomain.com/angrybirds-2.2.0.ipa",
+          "size": 19416288,
+          "minOSVersion": "9.0",
+          "maxOSVersion": "16.3"
         }
       ],
       "appPermissions": {
-        "camera": false,
-        "location": false,
-        "microphone": false,
-        "photos": false,
-        "motion": false
+        "entitlements": [
+          "com.apple.security.application-groups",
+          "com.apple.developer.siri"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "App uses the camera for taking photos in-game."
+        }
+      },
+      "patreon": {
+        "pledge": 3,
+        "currency": "USD",
+        "tiers": ["12345678"]
       }
     }
   ],
